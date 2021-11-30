@@ -16,8 +16,17 @@ namespace TestClientAuthCert
         static void Main()
         {
             handler.ClientCertificateOptions = ClientCertificateOption.Manual;
-            var certificate = new X509Certificate2(CERTIFICATEFILEPATH, System.IO.File.ReadAllText(PASSWORDFILEPATH));
-            handler.ClientCertificates.Add(certificate);
+            try
+            {
+                var certificate = new X509Certificate2(CERTIFICATEFILEPATH, System.IO.File.ReadAllText(PASSWORDFILEPATH));
+                handler.ClientCertificates.Add(certificate);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("There was a Problem with the Certificate");
+                Console.WriteLine("Message: {0} ", e.Message);
+                throw;
+            }
             var client = new HttpClient(handler);
             CallEndpointAsync(client).Wait();
             Console.ReadKey();
@@ -25,16 +34,27 @@ namespace TestClientAuthCert
 
         static async Task CallEndpointAsync(HttpClient client)
         {
+            HttpResponseMessage response = new HttpResponseMessage();
             try
             {
-                HttpResponseMessage response = await client.GetAsync(ENDPOINT);
-                response.EnsureSuccessStatusCode();
-                string responseBody = await response.Content.ReadAsStringAsync();
-                Console.WriteLine(responseBody);
+                response = await client.GetAsync(ENDPOINT);
             }
             catch (HttpRequestException e)
             {
                 Console.WriteLine("Exception Caught!");
+                Console.WriteLine("Message: {0} ", e.Message);
+            }
+            try
+            {
+                response.EnsureSuccessStatusCode();
+                string responseBody = await response.Content.ReadAsStringAsync();
+                Console.WriteLine(responseBody);
+
+                Console.WriteLine("The Certificate has worked against the specified Endpoint");
+            }
+            catch (HttpRequestException e)
+            {
+                Console.WriteLine("There was a Problem with the Certificate");
                 Console.WriteLine("Message: {0} ", e.Message);
             }
         }
