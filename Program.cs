@@ -10,7 +10,7 @@ namespace TestClientAuthCert
         static HttpClientHandler handler = new HttpClientHandler();
         static readonly string CERTIFICATEFILEPATH = "../../../certificate.pfx";
         static readonly string PASSWORDFILEPATH = "../../../pwd.txt";
-        static readonly string ENDPONINT = "https://pki.zeiss.org/pkiWebDev/test";
+        static readonly string ENDPOINT = "https://pki.zeiss.org/pkiWebDev/test";
 
 
         static void Main()
@@ -27,7 +27,7 @@ namespace TestClientAuthCert
         {
             try
             {
-                HttpResponseMessage response = await client.GetAsync(ENDPONINT);
+                HttpResponseMessage response = await client.GetAsync(ENDPOINT);
                 response.EnsureSuccessStatusCode();
                 string responseBody = await response.Content.ReadAsStringAsync();
                 Console.WriteLine(responseBody);
