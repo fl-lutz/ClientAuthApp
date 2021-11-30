@@ -1,0 +1,16 @@
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\obj\Debug\netcoreapp3.1\TestClientAuthCert.csproj.AssemblyReference.cache
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\obj\Debug\netcoreapp3.1\TestClientAuthCert.AssemblyInfoInputs.cache
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\obj\Debug\netcoreapp3.1\TestClientAuthCert.AssemblyInfo.cs
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\obj\Debug\netcoreapp3.1\TestClientAuthCert.csproj.CoreCompileInputs.cache
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\bin\Debug\netcoreapp3.1\TestClientAuthCert.exe
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\bin\Debug\netcoreapp3.1\TestClientAuthCert.deps.json
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\bin\Debug\netcoreapp3.1\TestClientAuthCert.runtimeconfig.json
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\bin\Debug\netcoreapp3.1\TestClientAuthCert.runtimeconfig.dev.json
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\bin\Debug\netcoreapp3.1\TestClientAuthCert.dll
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\bin\Debug\netcoreapp3.1\TestClientAuthCert.pdb
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Certificate.dll
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\obj\Debug\netcoreapp3.1\TestClientAuthCert.csproj.CopyComplete
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\obj\Debug\netcoreapp3.1\TestClientAuthCert.dll
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\obj\Debug\netcoreapp3.1\TestClientAuthCert.pdb
+C:\Users\ZOFLLUTZ\source\repos\TestClientAuthCert\obj\Debug\netcoreapp3.1\TestClientAuthCert.genruntimeconfig.cache

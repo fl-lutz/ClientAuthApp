@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "u8wQQolccxZkiA7bZ0zB1BZXst1HAbvia/2dyzddsVe4Ysdot2qwl3tnp34ncmebWAdzrnqCxLL86FGkkPGP+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ZOFLLUTZ\\source\\repos\\TestClientAuthCert\\TestClientAuthCert.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ZOFLLUTZ\\.nuget\\packages\\microsoft.aspnetcore.authentication.certificate\\3.1.21\\microsoft.aspnetcore.authentication.certificate.3.1.21.nupkg.sha512",
+    "C:\\Users\\ZOFLLUTZ\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\ZOFLLUTZ\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\ZOFLLUTZ\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\ZOFLLUTZ\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\ZOFLLUTZ\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.2.0\\microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\ZOFLLUTZ\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ZOFLLUTZ\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\ZOFLLUTZ\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\ZOFLLUTZ\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.2.0\\microsoft.extensions.logging.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\ZOFLLUTZ\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
+    "C:\\Users\\ZOFLLUTZ\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\3.1.11\\microsoft.netcore.app.host.win-x86.3.1.11.nupkg.sha512"
+  ],
+  "logs": []
+}
