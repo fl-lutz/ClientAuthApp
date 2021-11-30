@@ -433,4 +433,4 @@ About
 # PFX Cert file and .txt PWD File and bin folder
 *.pfx
 *.txt
-bin/
+bin/*
